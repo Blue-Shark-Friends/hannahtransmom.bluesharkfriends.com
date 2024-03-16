@@ -1,0 +1,25 @@
+.infinite-cards {
+    height: 200px;
+    width: 100%;
+    display: grid;
+    place-items: center center;
+    .card {
+      position: fixed;
+      top: 5%;
+      bottom: 5%;
+      left: auto;
+      right: auto;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 15px;
+      color: #fff;
+      display: grid;
+      place-items: center center;
+      padding: 10px;
+      p {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+      }
+    }
+  }
